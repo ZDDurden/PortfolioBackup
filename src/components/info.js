@@ -7,13 +7,14 @@ import {
   FaInstagram as Insta,
   FaEnvelope as Mail,
   FaLinkedin as Linkedin,
+  FaFileTextO as Filetext,
 } from "react-icons/fa"
 
 export default function info() {
   return (
     <div className="container">
       <div className="my-5"></div>
-      <div className="display-3" style={{ color: "#FF8A00" }}>
+      <div className="display-3" style={{ color: "#09BC8A" }}>
         <span style={{ color: "white" }}>Hello, I'm</span> <br />
         Zach.
       </div>
@@ -22,16 +23,30 @@ export default function info() {
         A Detail-Oriented, Full-Stack Developer and Software Enthusiast From
         Birmingham, AL.
         <br />
+        Please contact me through social media or email for questions and resume
+        requests.
       </div>
       <div className="h1 code mt-2 mb-3">{"}"}</div>
       <div className="h1 mt-5">
-        <a className="mr-5 icon" href="https://linkedin.com/in/zddurden">
+        <a
+          className="mr-5 icon"
+          target="_blank"
+          href="https://linkedin.com/in/zddurden"
+        >
           <Linkedin />
         </a>
-        <a className="mr-5 icon" href="https://github.com/ZDDurden">
+        <a
+          className="mr-5 icon"
+          target="_blank"
+          href="https://github.com/ZDDurden"
+        >
           <Github />
         </a>
-        <a className="mr-5 icon" href="mailto://zddurden@crimson.ua.edu">
+        <a
+          className="mr-5 icon"
+          target="_blank"
+          href="mailto://zddurden@crimson.ua.edu"
+        >
           <Mail />
         </a>
       </div>

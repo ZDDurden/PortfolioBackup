@@ -5,7 +5,7 @@ export default function Intent({ children, to }) {
   return (
     <Link
       cover
-      bg="#FF8A00"
+      bg="#09BC8A"
       className="nav-link"
       to={to}
       activeStyle={{
