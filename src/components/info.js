@@ -7,8 +7,16 @@ import {
   FaInstagram as Insta,
   FaEnvelope as Mail,
   FaLinkedin as Linkedin,
-  FaFileTextO as Filetext,
+  FaFileAlt as Filetext,
+  FaCss3 as Css,
+  FaHtml5 as Html,
 } from "react-icons/fa"
+import {
+  IoLogoJavascript as Javascript,
+  IoLogoCss3 as Css3,
+  IoLogoNodejs as Nodejs,
+  IoLogoPython as Python,
+} from "react-icons/io"
 
 export default function info() {
   return (
@@ -23,8 +31,14 @@ export default function info() {
         A Detail-Oriented, Full-Stack Developer and Software Enthusiast From
         Birmingham, AL.
         <br />
-        Please contact me through social media or email for questions and resume
-        requests.
+        Please contact me through social media or email for questions or
+        download my resume below.
+        {/* <br />
+        <Html />
+        <Css3 />
+        <Javascript />
+        <Python />
+        <Nodejs /> */}
       </div>
       <div className="h1 code mt-2 mb-3">{"}"}</div>
       <div className="h1 mt-5">
@@ -48,6 +62,15 @@ export default function info() {
           href="mailto://zddurden@crimson.ua.edu"
         >
           <Mail />
+        </a>
+        <a
+          title="Download My Resume"
+          className="mr-5 icon"
+          target="_blank"
+          href="../content/ZDurdenResume.docx"
+          download
+        >
+          <Filetext />
         </a>
       </div>
     </div>
