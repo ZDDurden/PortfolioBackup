@@ -14,12 +14,13 @@ export default function info() {
     <div className="container">
       <div className="my-5"></div>
       <div className="display-3" style={{ color: "#FF8A00" }}>
-        <span style = {{color : "white"}}>Hello, I'm</span> <br />
+        <span style={{ color: "white" }}>Hello, I'm</span> <br />
         Zach.
       </div>
       <div className="h1 code mt-4 mb-3">async {"{"}</div>
       <div className="text-muted mx-5 my-4 h3 text-justify info">
-        A Detail-Oriented, Full-Stack Developer and Software Enthusiast.
+        A Detail-Oriented, Full-Stack Developer and Software Enthusiast From
+        Birmingham, AL.
         <br />
       </div>
       <div className="h1 code mt-2 mb-3">{"}"}</div>
