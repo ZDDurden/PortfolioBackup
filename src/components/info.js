@@ -28,8 +28,8 @@ export default function info() {
       </div>
       <div className="h1 code mt-4 mb-3">async {"{"}</div>
       <div className="text-muted mx-5 my-4 h3 text-justify info">
-        A Detail-Oriented, Full-Stack Developer and Software Enthusiast From
-        Birmingham, AL.
+        A Detail-Oriented, Full-Stack Developer and Software Enthusiast Living
+        in Birmingham, AL.
         <br />
         Please contact me through social media or email for questions or
         download my resume below.
@@ -67,7 +67,7 @@ export default function info() {
           title="Download My Resume"
           className="mr-5 icon"
           target="_blank"
-          href="../content/ZDurdenResume.docx"
+          href={`../ZDurdenResume.pdf`}
           download
         >
           <Filetext />
