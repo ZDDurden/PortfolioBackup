@@ -6,9 +6,9 @@
   subtitle: A typing game with Fillerama
   link: https://github.com/ZDDurden/TypingGame
 
-- title: React Native API
-  subtitle: A demo of an API in React Native
-  link: https://github.com/ZDDurden/ReactNativeAPI
+- title: C# Calculator
+  subtitle: A cmd line calculator with C#
+  link: https://github.com/ZDDurden/CSharpCalculator
 
 - title: Tiamat
   subtitle: A snake-like Javascript game
