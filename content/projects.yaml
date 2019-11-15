@@ -14,9 +14,9 @@
   subtitle: A snake-like Javascript game
   link: https://github.com/ZDDurden/Tiamat
 
-- title: React API
-  subtitle: A demo of an API in React
-  link: https://github.com/ZDDurden/ReactAPI
+- title: Python Scraper
+  subtitle: A scraper for Steam games
+  link: https://github.com/ZDDurden/PythonScraper
 
 - title: Tic Tac Toe
   subtitle: A tic tac toe game
